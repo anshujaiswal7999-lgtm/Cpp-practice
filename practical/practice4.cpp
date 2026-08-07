@@ -10,17 +10,23 @@ int Fact(int j){
 
  
 
-int series(int k)
+void series(int k)
 {
   int sum=0;
-  char x='x';
+    char x='x';
+   
    int sign=1;
     for(int i=1;i<=k;i+=2)
     {
-   sum+=(x*i)/Fact(i);
+        if(sign==1){
+           sum+=sign*(('x' *i)/Fact(i));  
+        }else{
+             sum-=sign*(('x' *i)/Fact(i));
+        }
+   
    sign=-sign;
     }
-    return sum;
+    cout<<"sum ="<< sum;
 }
 int main()
 {
@@ -31,7 +37,7 @@ int main()
    cin>> n;
    cout<<endl;
    
-   cout<<series(n);
+   series(n);
    
 
 
