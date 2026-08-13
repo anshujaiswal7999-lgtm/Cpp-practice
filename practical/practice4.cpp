@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
-int Fact(int j){
+int Fact(int n){
     int fact=1;
-    for(int i=j;i>=1;i--){
+    for(int i=n;i>=1;i--){
         fact *=i;
     }
     return fact;
@@ -19,9 +19,9 @@ void series(int k)
     for(int i=1;i<=k;i+=2)
     {
         if(sign==1){
-           sum+=sign*(('x' *i)/Fact(i));  
+           sum=sign*(('x' *i)/Fact(i));  
         }else{
-             sum-=sign*(('x' *i)/Fact(i));
+             sum=sign*(('x' *i)/Fact(i));
         }
    
    sign=-sign;
@@ -30,8 +30,8 @@ void series(int k)
 }
 int main()
 {
-  int sum;
-    char x;
+
+   
     int n;
    cout<<"Enter the nth number of series "<<endl;
    cin>> n;
