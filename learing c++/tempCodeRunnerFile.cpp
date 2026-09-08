@@ -1,1 +1,2 @@
-cout
+delete[]ptr;
+    // delete[]ptrTemp;
