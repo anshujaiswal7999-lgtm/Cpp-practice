@@ -1,32 +1,65 @@
-# C++ Practice
+# C++ Programming
 
-This repository contains my C++ practice programs and learning progress.
+This repository contains my C++ programming practice and learning journey.
+
+I created these programs while learning the fundamentals of C++ and Object-Oriented Programming (OOP).
 
 ## Topics Covered
 
-* Input and Output
+* C++ Basics
 * Variables and Data Types
 * Operators
 * Conditional Statements
 * Loops
 * Functions
+* Call by Value and Call by Reference
+* Recursion
 * Arrays
-* Strings
-* Object-Oriented Programming (OOP)
-* STL (Coming Soon)
+* Pointers
+* Structures, Unions and Enums
+* Function Overloading
+* Default Arguments
+* Classes and Objects
+* Constructors
+* Inheritance
+* Constructors in Inheritance
+* Polymorphism
+* Virtual Functions
+* Abstract Classes
+* Friend Functions
+* Static Members
+* Array of Objects
+* File Handling
+* `fstream`, `ifstream` and `ofstream`
 
 ## Purpose
 
-The purpose of this repository is to improve my C++ programming skills by practicing concepts and solving problems regularly.
+The main purpose of this repository is to:
 
-## Tools Used
+* Build a strong foundation in C++
+* Understand Object-Oriented Programming concepts
+* Practice writing programs independently
+* Prepare for Data Structures and Algorithms (DSA)
 
-* C++
-* Visual Studio Code
-* MinGW g++
+## Next Step
 
-## Note
+After completing C++, I am moving forward to:
 
-This repository is updated as I learn new C++ concepts and complete more practice programs.
+**Data Structures and Algorithms (DSA) using C++**
 
-Github link:https://github.com/anshujaiswal7999-lgtm/C-practice
+I will continue improving my problem-solving skills through regular practice and coding problems.
+
+## Progress
+
+* [x] C++ Fundamentals
+* [x] Functions and Recursion
+* [x] Pointers and Arrays
+* [x] Object-Oriented Programming
+* [x] File Handling
+* [x] C++ Practice Programs
+* [ ] Data Structures and Algorithms
+
+---
+
+**Learning, practicing, and building consistently.**
+
