@@ -1,2 +1,1 @@
-delete[]ptr;
-    // delete[]ptrTemp;
+in>>content;
